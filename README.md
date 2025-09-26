@@ -34,57 +34,80 @@ This initial submission includes:
 - Wireframes and Sitemap (`/assets/design/`)
 - Basic HTML structure for all 5+ pages (`/src/`)
 
-## Part 2: CSS Styling and Responsive Design Implementation
+Part 2 Overview
 
-### Design Approach
-This website implements **responsive design** rather than adaptive design, meaning it uses a flexible layout that fluidly adapts to any screen size. Unlike adaptive design which uses fixed layouts at specific breakpoints, our responsive approach ensures seamless scaling across all devices.
+In Part 2, the focus was on enhancing the visual design of the website through CSS styling and implementing a fully responsive design. This involved creating a consistent and professional look across all pages while ensuring usability across multiple devices (desktop, tablet, mobile). The key objectives achieved in Part 2 include:
 
-### CSS Units Strategy
-- **Relative units** are prioritized over absolute units for flexibility
-- **rem units** are used for typography (relative to root `<html>` font-size)
-- **em units** are applied for components within parent containers
-- **Percentage-based widths** and **viewport units** for layout flexibility
+Creation of an external CSS stylesheet (style.css) linked to all HTML pages.
 
-### Parent-Child Container Structure
-The design utilizes a systematic parent-child relationship through div containers where child elements inherit styles from their parent containers.
+Implementation of desktop-focused styling using Flexbox and CSS Grid for layout structure.
 
-### Recent Design Updates (September 2025)
+Application of typographic styles (font-family, font-size, font-weight, line-height, letter-spacing).
 
-#### Visual Improvements
-- **Updated background** with modern gradient and texture elements
-- **Removed logo from navigation bar** to create cleaner, more minimalist header
-- **Implemented live image backgrounds** using high-quality, optimized photographs
-- **Enhanced visual hierarchy** through improved contrast and spacing
+Use of CSS pseudo-classes (:hover, :focus, :active) for interactive elements like buttons and links.
 
-#### Responsive Design Principles Applied
-1. **Fluid Grids**: Percentage-based widths instead of fixed pixels
-2. **Flexible Images**: max-width: 100% to prevent overflow
-3. **Media Queries**: Conditional CSS for different viewports
-4. **Mobile-First**: Base styles for mobile, enhanced for larger screens
-5. **Relative Units**: em/rem for scalable typography and spacing
+Establishment of color scheme, visual styles, and spacing for a professional look.
 
-### Responsive Testing Evidence
+Implementation of responsive design for mobile and tablet devices using media queries and relative units (%, em, rem).
 
-The website has been thoroughly tested across multiple device sizes. The design adapts seamlessly to different screen dimensions while maintaining optimal user experience.
+Testing and iteration across multiple devices and browsers to ensure cross-device usability.
 
-#### Technical Implementation
-```css
-:root {
-    --base-font-size: 16px; /* Root for rem calculations */
-}
 
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
+Changelog
 
-/* Responsive breakpoints */
-@media (max-width: 768px) {
-    .parent-container {
-        font-size: 14px; /* Adjusted base for mobile */
-    }
-}
+Part 1 Feedback Implementation
+
+Date	Change Description
+
+2025-08-27	Corrected HTML structure on contact.html to improve accessibility.
+2025-08-28	Added missing alt attributes for images on all pages.
+2025-08-29	Fixed broken navigation links across pages.
+2025-08-30	Standardised file/folder naming conventions and reorganised images and CSS folder.
+
+
+Part 2 Implementation
+
+Date	Change Description
+
+2025-09-26	Created external style.css and linked to all HTML pages.
+2025-09-26	Applied base typography and color scheme for website consistency.
+2025-09-26	Implemented desktop layout using Flexbox/Grid for all main content sections.
+2025-09-26	Styled buttons, forms, links, and cards with hover/focus effects.
+2025-09-26	Added responsive media queries for mobile (<768px), tablet (768–1024px), and desktop (>1024px).
+2025-09-26	Tested website on Chrome, Firefox, and mobile devices for layout and functionality.
+2025-09-26	Captured screenshot evidence for desktop, tablet, and mobile views (see /screenshots/).
+
+
+
+Responsive Design Evidence
+
+Device Type	Screenshot
+
+Desktop	
+Tablet	
+Mobile	
+
+
+Notes on Responsiveness:
+
+Layout automatically switches from multi-column grid on desktop to single-column on mobile.
+
+Font sizes, buttons, and forms scale appropriately using relative units.
+
+Navigation menu collapses and remains usable across all devices.
+
+
+References
+
+Mozilla Developer Network (MDN) Web Docs. CSS Reference. https://developer.mozilla.org/en-US/docs/Web/CSS
+
+W3Schools CSS Tutorial. https://www.w3schools.com/css/
+
+Flexbox Guide – CSS Tricks. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Grid Guide – CSS Tricks. https://css-tricks.com/snippets/css/complete-guide-grid/
+
+
 
 
 ## Sitemap
