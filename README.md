@@ -34,14 +34,6 @@ This initial submission includes:
 - Wireframes and Sitemap (`/assets/design/`)
 - Basic HTML structure for all 5+ pages (`/src/`)
 
-## Sitemap
-```mermaid
-graph TD
-A[Homepage] --> B[About Us];
-A --> C[Our Programs];
-A --> D[Donate];
-A --> E[Contact];
-
 ## Part 2: CSS Styling and Responsive Design Implementation
 
 ### Design Approach
@@ -93,3 +85,14 @@ The website has been thoroughly tested across multiple device sizes. The design 
         font-size: 14px; /* Adjusted base for mobile */
     }
 }
+
+
+## Sitemap
+```mermaid
+graph TD
+A[Homepage] --> B[About Us];
+A --> C[Our Programs];
+A --> D[Donate];
+A --> E[Contact];
+
+
