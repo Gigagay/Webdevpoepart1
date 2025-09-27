@@ -83,7 +83,7 @@ Responsive Design Evidence
 
 Device Type	Screenshot
 
-Desktop	
+Laptop
 Tablet	
 Mobile	
 
@@ -107,6 +107,17 @@ Flexbox Guide – CSS Tricks. https://css-tricks.com/snippets/css/a-guide-to-fle
 
 Grid Guide – CSS Tricks. https://css-tricks.com/snippets/css/complete-guide-grid/
 
+
+# Responsive Screenshots
+
+## Phone View
+![Phone View](image/phone.png)
+
+## Tablet View
+![Tablet View](image/tablet.png)
+
+## Laptop/Desktop View
+![Laptop/Desktop View](image/laptop.png)
 
 
 
