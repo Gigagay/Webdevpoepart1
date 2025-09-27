@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Programs - FoodForward SA</title>
+    <title>Contact Us - FoodForward SA</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,10 +14,10 @@
                 <nav class="nav-links">
                     <a href="index.html">Home</a>
                     <a href="about.html">About</a>
-                    <a href="programs.html" class="current">Programs</a>
+                    <a href="programs.html">Programs</a>
                     <a href="get-involved.html">Get Involved</a>
                     <a href="donate.html" class="donate-btn">Donate</a>
-                    <a href="contact.html">Contact</a>
+                    <a href="contact.html" class="current">Contact</a>
                 </nav>
             </div>
         </div>
@@ -25,25 +25,44 @@
 
     <main class="page-content">
         <div class="container">
-            <h1>Our Core Food Rescue Programs</h1>
-            <p>FoodForward SA runs several key programs to ensure food reaches those who need it most, efficiently and safely.</p>
+            <h1>Get In Touch With FoodForward SA</h1>
+            <p>Whether you want to partner with us, volunteer, or have a general inquiry, we're here to help.</p>
 
-            <div class="program-card">
-                <h2>Food Rescue Program</h2>
-                <p>Our flagship program focuses on collecting surplus edible food from the supply chain and distributing it to community organizations.</p>
-                <p style="font-size: 14px; color: #666;">* Impact: Focuses on daily distribution and bulk donations.</p>
-            </div>
+            <div class="contact-grid">
+                <div class="contact-info-block">
+                    <h2>Our Details</h2>
+                    <p><strong>Head Office:</strong></p>
+                    <p>123 Rescue Street, Cape Town, 8001, South Africa</p>
+                    <p><strong>Phone:</strong> +27 21 555 1234</p>
+                    <p><strong>Email:</strong> info@foodforwardsa.org</p>
+                    <h3 style="margin-top: 25px;">Warehouses:</h3>
+                    <p>We operate warehouses in all major metropolitan areas. Contact us for the nearest location.</p>
+                </div>
+                
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form action="#" method="POST">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
 
-            <div class="program-card">
-                <h2>Virtual Foodbanking (VFB)</h2>
-                <p>An innovative solution allowing corporate partners to donate funds which are converted into specific staple goods for beneficiary organizations via a virtual platform.</p>
-                <p style="font-size: 14px; color: #666;">* Impact: Expands reach to rural and remote areas.</p>
-            </div>
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
 
-            <div class="program-card">
-                <h2>Mandela Day Food Drive</h2>
-                <p>An annual national campaign encouraging the public and businesses to donate non-perishable food items to replenish our warehouses.</p>
-                <p style="font-size: 14px; color: #666;">* Impact: Provides a significant annual boost to stock levels.</p>
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="partnership">Corporate Partnership</option>
+                            <option value="volunteer">Volunteer Inquiry</option>
+                            <option value="donation">Food Donation</option>
+                            <option value="general">General Inquiry</option>
+                        </select>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+
+                        <button type="submit">Submit Inquiry</button>
+                    </form>
+                </div>
             </div>
         </div>
     </main>

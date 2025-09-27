@@ -1,34 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FoodForward SA - Home</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodForward SA - Fight Hunger. Reduce Waste.</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Header & Nav -->
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="programs.html">Our Programs</a></li>
-        <li><a href="donate.html">Donate</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header class="header-nav">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">FoodForward SA</div>
+                <nav class="nav-links">
+                    <a href="index.html" class="current">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="programs.html">Programs</a>
+                    <a href="get-involved.html">Get Involved</a>
+                    <a href="donate.html" class="donate-btn">Donate</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
 
-  <!-- Main Content -->
-  <main>
-    <h1>Welcome to FoodForward SA</h1>
-    <p>Founded in 2009, FoodForward SA is South Africa’s largest non-profit food redistribution organisation. We connect surplus food from farmers, manufacturers, and retailers to communities in need. Together, we can build a South Africa where no one goes hungry.</p>
-  </main>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-text">
+                    <h1>Fight Hunger. Reduce Waste.</h1>
+                    <p>We rescue surplus food and get it to people who need it most.</p>
+                    <div class="hero-buttons">
+                        <a href="programs.html" class="learn-how">Learn How</a>
+                        <a href="donate.html" class="donate-food">Donate Food</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src= "images/Capetown_skyline.jpeg" alt="Capetown_skyline - FoodForward SA serves communities across South Africa " style = "width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                </div>
+            </div>
+        </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 FoodForward SA</p>
-  </footer>
+        <section class="impact">
+            <div class="container">
+                <h2>Our Impact in 2025</h2>
+                <div class="impact-stats">
+                    <div class="stat">
+                        <div class="stat-value">5.2M</div>
+                        <div>Meals Distributed</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">975k</div>
+                        <div>People Fed</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">1,250</div>
+                        <div>Beneficiary Organizations</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="how-steps">
+    <div class="step">
+        <div class="step-icon">
+            <img src="images/Food_handling.jpeg" alt="Food handling and sorting process" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;">
+        </div>
+        <h4>1. Donate</h4>
+        <p>Food partners provide surplus food.</p>
+    </div>
+    <div class="step">
+        <div class="step-icon">
+            <img src="images/Food_trucks.jpeg" alt="Food distribution trucks" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;">
+        </div>
+        <h4>2. Collect & Sort</h4>
+        <p>We safely collect and sort donations.</p>
+    </div>
+    <div class="step">
+        <div class="step-icon">
+            <img src="images/Food_distribution2.jpeg" alt="Food distribution to communities" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;">
+        </div>
+        <h4>3. Distribute</h4>
+        <p>Food reaches communities in need.</p>
+    </div>
+</div>
+        <section class="cta-section">
+            <div class="container">
+                <h2>Your support makes a direct impact.</h2>
+                <a href="donate.html" class="cta-button">Make a Donation Today</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <h4>FoodForward SA</h4>
+                    <p>123 Rescue Street</p>
+                    <p>Cape Town, 8001</p>
+                    <p>South Africa</p>
+                </div>
+                <div class="quick-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="programs.html">Our Programs</a></li>
+                        <li><a href="get-involved.html">Get Involved</a></li>
+                        <li><a href="#">Financials</a></li>
+                    </ul>
+                </div>
+                <div class="stay-connected">
+                    <h4>Stay Connected</h4>
+                    <div class="social-icons">
+                        <a href="#">FB</a>
+                        <a href="#">IG</a>
+                        <a href="#">TW</a>
+                        <a href="#">LI</a>
+                    </div>
+                    <form>
+                        <input type="email" placeholder="Email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div style="text-align: center; padding-top: 20px; font-size: 12px; color: #888;">
+                &copy; 2025 FoodForward SA
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

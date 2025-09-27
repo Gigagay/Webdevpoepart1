@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donate Now - FoodForward SA</title>
+    <title>Get Involved - FoodForward SA</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,8 +15,8 @@
                     <a href="index.html">Home</a>
                     <a href="about.html">About</a>
                     <a href="programs.html">Programs</a>
-                    <a href="get-involved.html">Get Involved</a>
-                    <a href="donate.html" class="donate-btn current">Donate</a>
+                    <a href="get-involved.html" class="current">Get Involved</a>
+                    <a href="donate.html" class="donate-btn">Donate</a>
                     <a href="contact.html">Contact</a>
                 </nav>
             </div>
@@ -25,36 +25,47 @@
 
     <main class="page-content">
         <div class="container">
-            <h1>Make a Direct Impact: Donate Today</h1>
-            <p style="text-align: center; font-size: 18px; max-width: 800px; margin: 0 auto 30px;">Your financial contribution helps us cover logistics, fuel, and storage costs to ensure rescued food reaches vulnerable communities efficiently.</p>
-
-            <div class="donation-options">
-                <div class="option-card">
-                    <h3>R100</h3>
-                    <p>Feeds one person for a week.</p>
-                    <a href="#" class="cta-button">Donate R100</a>
-                </div>
-                <div class="option-card">
-                    <h3>R500</h3>
-                    <p>Contributes to a day's fuel for one truck.</p>
-                    <a href="#" class="cta-button">Donate R500</a>
-                </div>
-                <div class="option-card">
-                    <h3>Monthly Giving</h3>
-                    <p>Provide sustainable, ongoing support.</p>
-                    <a href="#" class="cta-button">Become a Monthly Donor</a>
-                </div>
-            </div>
+            <h1>Get Involved with FoodForward SA</h1>
+            <p>Join us in our mission to fight hunger and reduce food waste. There are many ways you can make a difference.</p>
 
             <div class="donation-options">
     <div class="option-card">
-        <img src="images/Donations.jpeg" alt="Food donations being processed" style="width: 100%; height: 150px; object-fit: cover; border-radius: 8px 8px 0 0;">
-        <h3>R100</h3>
-        <p>Feeds one person for a week.</p>
-        <a href="#" class="cta-button">Donate R100</a>
+        <img src="images/Happy_volunteers.jpeg" alt="Happy FoodForward SA volunteers" style="width: 100%; height: 150px; object-fit: cover; border-radius: 8px 8px 0 0;">
+        <h3>Volunteer</h3>
+        <p>Join our team of dedicated volunteers helping with food sorting and distribution.</p>
+        <a href="#volunteer-form" class="cta-button">Volunteer Now</a>
     </div>
 </div>
 
+                <div class="option-card">
+                    <h3>Corporate Partnership</h3>
+                    <p>Partner with us as a business to support our food rescue initiatives and make a lasting impact.</p>
+                    <a href="contact.html" class="cta-button">Become a Partner</a>
+                </div>
+                <div class="option-card">
+                    <h3>Food Donation</h3>
+                    <p>Donate surplus food from your business or organization to help feed those in need.</p>
+                    <a href="donate.html" class="cta-button">Donate Food</a>
+                </div>
+            </div>
+
+            <div id="volunteer-form" class="donation-form">
+                <h2>Volunteer Application Form</h2>
+                <form>
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <input type="tel" placeholder="Phone Number">
+                    <select required>
+                        <option value="">Select Volunteer Area</option>
+                        <option value="sorting">Food Sorting</option>
+                        <option value="distribution">Food Distribution</option>
+                        <option value="events">Community Events</option>
+                        <option value="admin">Administrative Support</option>
+                    </select>
+                    <textarea placeholder="Tell us why you want to volunteer..." rows="4"></textarea>
+                    <button type="submit">Submit Application</button>
+                </form>
+            </div>
         </div>
     </main>
 

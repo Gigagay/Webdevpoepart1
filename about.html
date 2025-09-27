@@ -1,31 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FoodForward SA - About Us</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - FoodForward SA</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="programs.html">Our Programs</a></li>
-        <li><a href="donate.html">Donate</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header class="header-nav">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">FoodForward SA</div>
+                <nav class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html" class="current">About</a>
+                    <a href="programs.html">Programs</a>
+                    <a href="get-involved.html">Get Involved</a>
+                    <a href="donate.html" class="donate-btn">Donate</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
 
-  <main>
-    <h1>About FoodForward SA</h1>
-    <p>Our mission is to fight hunger by reducing food waste. By partnering with corporates, retailers, and volunteers, we create a bridge between surplus and need. Our vision is a South Africa where no one goes hungry.</p>
-  </main>
+    <main class="page-content">
+        <div class="container">
+            <h1>Our Mission and History</h1>
+            <p>FoodForward SA is a non-profit organization established in 2009 to address widespread hunger and food waste in South Africa. Our core mission is to bridge the gap between food abundance and food insecurity by rescuing quality, surplus food from manufacturers, wholesalers, and retailers, and redistributing it to registered beneficiary organizations that serve vulnerable communities.</p>
 
-  <footer>
-    <p>© 2025 FoodForward SA</p>
-  </footer>
+            <h2>Our Vision</h2>
+            <p>A South Africa where no person goes hungry, and where food waste is minimized.</p>
+
+            <h2>Our Impact</h2>
+            <p>Over the past decade, we have grown to be one of the country's largest food redistribution organizations, serving thousands of organizations monthly and touching the lives of nearly a million people. We believe in providing sustainable solutions that empower communities.</p>
+
+<section style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 3rem;">
+    <div class="program-card">
+        <img src="images/Community_garden.jpeg" alt="Community garden supported by FoodForward SA" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px 8px 0 0;">
+        <h3>Our Leadership</h3>
+        <p>Meet the dedicated team and board members driving our operations.</p>
+    </div>
+    <div class="program-card">
+        <img src="images/rural_community_SA.jpeg" alt="Rural community we serve" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px 8px 0 0;">
+        <h3>Community Impact</h3>
+        <p>See how we're making a difference in communities across South Africa.</p>
+    </div>
+</section>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <h4>FoodForward SA</h4>
+                    <p>123 Rescue Street</p>
+                    <p>Cape Town, 8001</p>
+                    <p>South Africa</p>
+                </div>
+                <div class="quick-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="programs.html">Our Programs</a></li>
+                        <li><a href="get-involved.html">Get Involved</a></li>
+                        <li><a href="#">Financials</a></li>
+                    </ul>
+                </div>
+                <div class="stay-connected">
+                    <h4>Stay Connected</h4>
+                    <div class="social-icons">
+                        <a href="#">FB</a>
+                        <a href="#">IG</a>
+                        <a href="#">TW</a>
+                        <a href="#">LI</a>
+                    </div>
+                    <form>
+                        <input type="email" placeholder="Email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div style="text-align: center; padding-top: 20px; font-size: 12px; color: #888;">
+                &copy; 2025 FoodForward SA
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
