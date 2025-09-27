@@ -111,13 +111,13 @@ Grid Guide – CSS Tricks. https://css-tricks.com/snippets/css/complete-guide-gr
 # Responsive Screenshots
 
 ## Phone View
-![Phone View](image/phone.png)
+![Phone View](images/phone.png)
 
 ## Tablet View
-![Tablet View](image/tablet.png)
+![Tablet View](images/tablet.png)
 
 ## Laptop/Desktop View
-![Laptop/Desktop View](image/laptop.png)
+![Laptop/Desktop View](images/laptop.png)
 
 
 
