@@ -52,6 +52,22 @@ Implementation of responsive design for mobile and tablet devices using media qu
 
 Testing and iteration across multiple devices and browsers to ensure cross-device usability.
 
+## Part 3: JavaScript Functionality and SEO
+
+### Features Implemented:
+- **Form Validation**: Contact and donation forms with client-side validation
+- **Mobile Navigation**: Responsive menu toggle for mobile devices
+- **SEO Optimization**: Meta tags, descriptions, and proper heading structure
+- **User Feedback**: Form submission alerts and error messages
+
+### JavaScript Files:
+- `js/script.js` - Form validation and mobile menu functionality
+
+### SEO Improvements:
+- Added meta descriptions to all pages
+- Implemented proper heading hierarchy
+- Added alt text to all images
+- Optimized page titles for search engines
 
 Changelog
 
@@ -77,7 +93,25 @@ Date	Change Description
 2025-09-26	Tested website on Chrome, Firefox, and mobile devices for layout and functionality.
 2025-09-26	Captured screenshot evidence for desktop, tablet, and mobile views (see /screenshots/).
 
+## Changelog - Part 2 Feedback Implementation
 
+### 2025-09-30 - Accessibility Improvements
+- Added proper ARIA labels to navigation and forms
+- Improved color contrast ratios for better readability
+- Added skip navigation link for screen readers
+- Enhanced form field labeling
+
+### 2025-09-30 - SEO Optimization
+- Added meta descriptions to all pages
+- Implemented proper heading hierarchy (H1, H2, H3)
+- Added alt text to all images
+- Included semantic HTML elements
+
+### 2025-09-30 - Performance Enhancements
+- Optimized image file sizes for faster loading
+- Minified CSS for better performance
+- Added lazy loading for images
+- Improved mobile responsiveness
 
 Responsive Design Evidence
 
